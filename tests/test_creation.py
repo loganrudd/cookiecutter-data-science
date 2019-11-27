@@ -96,11 +96,11 @@ class TestCookieSetup(object):
             'references',
             'reports',
             'reports/figures',
-            'src',
-            'src/data',
-            'src/features',
-            'src/models',
-            'src/visualization',
+            '{{ cookiecutter.repo_name.lower().replace('-', '_') }}',
+            '{{ cookiecutter.repo_name.lower().replace('-', '_') }}/data',
+            '{{ cookiecutter.repo_name.lower().replace('-', '_') }}/features',
+            '{{ cookiecutter.repo_name.lower().replace('-', '_') }}/models',
+            '{{ cookiecutter.repo_name.lower().replace('-', '_') }}/visualization',
         ]
 
         ignored_dirs = [
