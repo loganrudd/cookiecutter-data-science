@@ -1,5 +1,4 @@
 {
     "repo_name": "name-of-repo",
-    "description": "A short description of the project.",
-    "python_interpreter": ["python3", "python"]
+    "description": "A short description of the project."
 }
